@@ -1,0 +1,36 @@
+body, html {
+    height: 100%;  
+    margin: 0;  
+    background-color: honeydew;
+}
+.game-div {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+}
+.game-div div {
+    width: 400px;
+}
+.game-item {
+    height: 50px;
+    line-height: 50px;
+    margin: 10px;
+    border: 1px outset gainsboro;
+    border-radius: 5px;
+    background-color: white;
+    transition: background-color 0.3s;
+    background-repeat: no-repeat;
+    background-size: contain; 
+    text-align: center;
+}
+.game-item:hover {
+    background-color: darkseagreen;
+    cursor: pointer;
+}
+.description-div {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
