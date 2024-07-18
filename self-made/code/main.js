@@ -1,6 +1,7 @@
 "use strict";
 const selfGameLinkDict = {
     '南国2048小游戏': { url: 'https://alittleyoshi.github.io/HSAS-2048-images-ver/', target: '_blank' },
+    '线与球': { url: 'https://hsas-tech.github.io/LineAndBall/', target: '_blank' },
     '返回': { url: '../', target: '_self' },
 };
 let selfGameDivList = document.querySelectorAll('.game-item');
